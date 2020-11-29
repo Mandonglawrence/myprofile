@@ -2,7 +2,8 @@
     height: 100vh;
     /* width: 50vw; */
     background:no-repeat center/95% url("/assets/ictpicture.jpg");
-    padding: 12px;
+    background-size: cover;
+    padding: 25px;
     box-sizing: border-box;
 }
 
