@@ -43,7 +43,7 @@
 }
 .case:hover{
     transform: rotate(0deg);
-
+    
 }
 
 .dot {
@@ -55,7 +55,7 @@
     position: relative;
     top: 20px;
     left: 0%;
-
+    
 }
 
 .curve-bar {
@@ -72,7 +72,9 @@
     height: 60%;
     width: 90%;
     position: relative;
-    background-color: #ffff;
+    /* background-color: rgba(255, 255, 255, 0.411); */
+    background: no-repeat center/100%url("/assets/phone1.jpg");
+    background-size: cover;
     margin: auto;
     top: 50px;
     overflow-y: scroll;
@@ -96,7 +98,7 @@
     height: 100%;
     background-color: #ffff;
     border-radius: 50%;
-
+    
 }
 .homeBtn{
     border: 2px solid #ffff;
@@ -109,7 +111,15 @@
     left: 0%;
 }
 
+.intro{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    border-radius: 0 15px 0 15px;
+}
 .dark {
-    background-color: #0000;
+    background-color: rgba(0, 0, 0, 0.6);
     color: #ffff;
 }

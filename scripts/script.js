@@ -28,6 +28,6 @@ sect.forEach((aSection) => {
 });
 let modeBtn = document.querySelector(".mode");
 modeBtn.addEventListener("click", (e) => {
-  document.querySelector(".screen").classList.toggle("dark");
+  document.querySelector(".intro").classList.toggle("dark");
   // document.querySelector('.screen').classList.toggle('dark');
 });
