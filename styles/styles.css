@@ -5,6 +5,7 @@
     background-size: contain;
     padding: 25px;
     box-sizing: border-box;
+    margin-bottom: 25px;
 }
 
 .section1 {
@@ -98,6 +99,7 @@
     height: 100%;
     background-color: #ffff;
     border-radius: 50%;
+    transition: all .8s ease-out;
     
 }
 .homeBtn{
@@ -118,8 +120,14 @@
     position: relative;
     top: 80px;
     border-radius: 0 15px 0 15px;
+    text-align: center;
+    transition: all .5s ease-out;
 }
 .dark {
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffff;
+}
+.toggling{
+    float: right;
+    background-color: white;
 }

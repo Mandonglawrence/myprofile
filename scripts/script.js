@@ -29,5 +29,6 @@ sect.forEach((aSection) => {
 let modeBtn = document.querySelector(".mode");
 modeBtn.addEventListener("click", (e) => {
   document.querySelector(".intro").classList.toggle("dark");
+  document.querySelector(".light").classList.toggle("toggling");
   // document.querySelector('.screen').classList.toggle('dark');
 });
