@@ -1,0 +1,114 @@
+.f {
+    height: 100vh;
+    /* width: 50vw; */
+    background:no-repeat center/95% url("/assets/ictpicture.jpg");
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.section1 {
+    background: green;
+    /* margin-right: 100vw; */
+    padding: 20px;
+    margin-left: 100vw;
+    transition: all .5s ease-in-out;
+    visibility: none;
+    opacity: 0;
+}
+
+.new {
+    background: yellow;
+    /* transition: all 1s linear; */
+    /* margin-right: 0vw; */
+    transform: skew(0deg);
+    visibility: visible;
+    opacity: 1;
+    margin-left: 0;
+}
+
+.case {
+    border: 2px solid #ffff;
+    height: 700px;
+    width: 80%;
+    border-radius: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    background:black;
+    box-shadow: black 8px 8px 18px;
+    position: relative;
+    top: 50px;
+    transform: rotate(-5deg);
+    transition: all .5s ease-out;
+}
+.case:hover{
+    transform: rotate(0deg);
+
+}
+
+.dot {
+    border: 2px solid #ffff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: 0%;
+
+}
+
+.curve-bar {
+    margin: auto;
+    height: 10px;
+    position: relative;
+    border: 2px solid #ffff;
+    top: 40px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.screen {
+    height: 60%;
+    width: 90%;
+    position: relative;
+    background-color: #ffff;
+    margin: auto;
+    top: 50px;
+    overflow-y: scroll;
+    padding: 15px;
+    transition: all .5s ease-out;
+}
+
+.mode {
+    width: 50px;
+    height: 20px;
+    border: 5px solid rgb(158, 153, 153);
+    position: relative;
+    left: 70%;
+    border-radius: 15px;
+    /* display: inline; */
+}
+
+.light {
+    /* display: inline; */
+    width: 40%;
+    height: 100%;
+    background-color: #ffff;
+    border-radius: 50%;
+
+}
+.homeBtn{
+    border: 2px solid #ffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    left: 0%;
+}
+
+.dark {
+    background-color: #0000;
+    color: #ffff;
+}
