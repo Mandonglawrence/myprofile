@@ -132,3 +132,23 @@
     float: right;
     background-color: white;
 }
+@media only screen and (max-width: 411px) {
+   .intro{
+       top: 10px;
+   }
+   .case{
+       top: 25px;
+       height: 500px;
+       width: 90%;
+   }
+   .homeBtn{
+       top: 60px;
+       height: 30px;
+       width: 30px;
+   }
+}
+@media only screen and (max-width: 280px) {
+   .intro{
+       top: 20px;
+   }
+}
