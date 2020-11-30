@@ -7,7 +7,6 @@ const options = {
 const observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
-      // document.querySelector('header').classList.remove('header');
       return;
     }
     console.log(entry.target);
@@ -32,5 +31,4 @@ modeBtn.addEventListener("click", (e) => {
   document.querySelector(".light").classList.toggle("toggling");
   document.querySelector("body").classList.toggle("bodyDark");
   document.getElementsByClassName(".section1").classList.toggle("section1Dark");
-  // document.querySelector('.screen').classList.toggle('dark');
 });

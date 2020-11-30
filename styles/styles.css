@@ -1,3 +1,6 @@
+body{
+    transition: all .5s ease-out;
+}
 .f {
     background:no-repeat center/95% url("/assets/ictpicture.jpg");
     background-size: contain;
@@ -6,7 +9,6 @@
     margin-bottom: 25px;
     padding-bottom: 50px;
 }
-
 .section1 {
     padding: 20px;
     margin-left: 100vw;
@@ -67,7 +69,6 @@
     height: 60%;
     width: 90%;
     position: relative;
-    /* background-color: rgba(255, 255, 255, 0.411); */
     background: no-repeat center/100%url("/assets/phone1.jpg");
     background-size: cover;
     margin: auto;
@@ -84,11 +85,9 @@
     position: relative;
     left: 70%;
     border-radius: 15px;
-    /* display: inline; */
 }
 
 .light {
-    /* display: inline; */
     width: 40%;
     height: 100%;
     background-color: #ffff;
@@ -133,7 +132,7 @@
     background-color: rgb(53, 53, 53);
     color: #ffff;
 }
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 414px) {
    .intro{
        top: 10px;
    }
