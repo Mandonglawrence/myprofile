@@ -85,6 +85,7 @@ body{
     position: relative;
     left: 70%;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .light {
@@ -132,6 +133,33 @@ body{
     background-color: rgb(53, 53, 53);
     color: #ffff;
 }
+@keyframes wave{
+0% {
+    transform: rotate(0.08turn);
+    /* background-color: yellow; */
+}
+
+25% {
+    transform: rotate(0.03turn);
+}
+
+
+50% {
+    transform: rotate(0.06turn);
+}
+
+100% {
+    transform: rotate(0.08turn);
+}
+}
+#wave{
+    display: inline-block;
+    animation-name: wave;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
 @media only screen and (max-width: 414px) {
    .intro{
        top: 10px;
