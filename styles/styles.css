@@ -7,7 +7,7 @@ body{
     padding: 25px;
     box-sizing: border-box;
     margin-bottom: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .section1 {
     padding: 20px;
@@ -137,7 +137,7 @@ body{
        top: 10px;
    }
    .case{
-       top: 5px;
+       top: -10px;
        height: 500px;
        width: 90%;
    }
@@ -146,12 +146,18 @@ body{
        height: 30px;
        width: 30px;
    }
+   .screen{
+       width: 80%;
+   }
 }
 @media only screen and (max-width: 280px) {
    .intro{
-       top: 10px;
+       top: 0px;
    }
    .case{
        width: 100%;
+   }
+   .screen{
+       width: 80%;
    }
 }
