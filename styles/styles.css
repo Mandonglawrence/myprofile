@@ -1,6 +1,4 @@
 .f {
-    height: ;
-    /* width: 50vw; */
     background:no-repeat center/95% url("/assets/ictpicture.jpg");
     background-size: contain;
     padding: 25px;
@@ -10,8 +8,6 @@
 }
 
 .section1 {
-    background: green;
-    /* margin-right: 100vw; */
     padding: 20px;
     margin-left: 100vw;
     transition: all .5s ease-in-out;
@@ -20,9 +16,6 @@
 }
 
 .new {
-    background: #ffff;
-    /* transition: all 1s linear; */
-    /* margin-right: 0vw; */
     transform: skew(0deg);
     visibility: visible;
     opacity: 1;
@@ -131,6 +124,14 @@
 .toggling{
     float: right;
     background-color: white;
+}
+.bodyDark{
+    background-color: rgb(53, 53, 53);
+    color: #ffff;
+}
+.section1Dark{
+    background-color: rgb(53, 53, 53);
+    color: #ffff;
 }
 @media only screen and (max-width: 411px) {
    .intro{
